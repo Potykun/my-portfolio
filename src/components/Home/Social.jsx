@@ -4,21 +4,21 @@ function Social() {
 	return (
 		<div className="home__social">
 			<a
-				href="https://www.instagram.com/"
+				href="https://www.instagram.com/a_potykun/"
 				className="home__social-icon"
 				target="_blank"
 			>
 				<i className="uil uil-instagram"></i>
 			</a>
 			<a
-				href="https://www.dribble.com/"
+				href="https://www.linkedin.com/in/andrii-potykun-bb25a4239/"
 				className="home__social-icon"
 				target="_blank"
 			>
-				<i className="uil uil-dribbble"></i>
+				<i className="uil uil-linkedin"></i>
 			</a>
 			<a
-				href="https://www.github.com/"
+				href="https://github.com/Potykun/"
 				className="home__social-icon"
 				target="_blank"
 			>

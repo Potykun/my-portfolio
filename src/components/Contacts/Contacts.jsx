@@ -16,7 +16,10 @@ function Contacts() {
 		e.target.reset();
 	};
 	return (
-		<section className="contact conteiner section">
+		<section
+			className="contact conteiner section"
+			id="contact"
+		>
 			<h2 className="section__title">Get in touch</h2>
 			<span className="section__subtitle">Contact Me</span>
 			<div className="contact__conteiner grid">
