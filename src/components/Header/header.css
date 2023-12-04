@@ -7,7 +7,7 @@
 	background-color: var(--conteiner-color);
 }
 .nav {
-	height: calc(var(--header-height)+1.5rem);
+	height: calc(var(--header-height) + 1.5rem);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -93,6 +93,11 @@
 	.nav__toggle {
 		display: block;
 	}
+}
+
+.scroll-header {
+	box-shadow: 0 -1px 4px var(--border-color);
+	background-color: var(--border-color);
 }
 
 @media screen and (max-width: 350px) {

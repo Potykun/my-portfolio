@@ -24,6 +24,10 @@
 }
 .swiper-pagination-bullet {
 	background-color: var(--text-color) !important;
+	opacity: 0.5 !important;
+}
+.swiper-pagination-bullet-active {
+	opacity: 1 !important;
 }
 @media screen and (max-width: 992px) {
 	.testimonial__conteiner {
