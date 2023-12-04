@@ -14,7 +14,7 @@ function Qualification() {
 				<div className="qualification__tabs">
 					<div
 						className={
-							toggleState == 1
+							toggleState === 1
 								? "qualification__button button--flex qualification__active"
 								: "qualification__button button--flex"
 						}
@@ -25,7 +25,7 @@ function Qualification() {
 					</div>
 					<div
 						className={
-							toggleState == 2
+							toggleState === 2
 								? "qualification__button button--flex qualification__active"
 								: "qualification__button button--flex"
 						}

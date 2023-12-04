@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Contacts from "./components/Contacts/Contacts";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Qualification from "./components/Qualification/Qualification";
@@ -18,6 +19,7 @@ function App() {
 				<Services></Services>
 				<Qualification></Qualification>
 				<Testimonials></Testimonials>
+				<Contacts></Contacts>
 			</main>
 		</>
 	);

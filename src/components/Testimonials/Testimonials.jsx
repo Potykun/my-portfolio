@@ -2,7 +2,6 @@ import React from "react";
 import "./testimonials.css";
 import { Data } from "./Data";
 
-import { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,7 +13,7 @@ import { Pagination } from "swiper/modules";
 
 function Testimonials() {
 	return (
-		<div className="testimonial conteiner section">
+		<section className="testimonial conteiner section">
 			<h2 className="section__title">My clients say</h2>
 			<span className="section__subtitle">Testimonials</span>
 			<Swiper
@@ -53,7 +52,7 @@ function Testimonials() {
 					);
 				})}
 			</Swiper>
-		</div>
+		</section>
 	);
 }
 
