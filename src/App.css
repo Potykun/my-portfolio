@@ -9,8 +9,8 @@
 	/*Color mode HSL(hue, saturation, lightness)*/
 	--hue: 180;
 	--sat: 20%;
-	--title-color: hsl(var(--hue), var(--sat), 30%);
-	--title-color-dark: hsl(var(--hue), var(--sat), 20%);
+	--title-color: hsl(var(--hue), var(--sat), 40%);
+	--title-color-dark: hsl(var(--hue), var(--sat), 2%);
 	--text-color: hsl(var(--hue), var(--sat), 46%);
 	--body-color: hsl(var(--hue), var(--sat), 95%);
 	--container-color: hsl(var(--hue), var(--sat), 85%);
