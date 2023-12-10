@@ -55,16 +55,18 @@ function Data() {
 					></path>
 				</svg>
 			</h1>
-			<h3 className="home__subtitle">virtual design</h3>
+			<h3 className="home__subtitle">Web Developer</h3>
 			<p className="home__description">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-				vitae aspernatur necessitatibus sed consectetur.
+				Frontend developer specialize in crafting dynamic and responsive
+				user interfaces expertise. Integrating React, TypeScript, Redux,
+				HTML, CSS and JavaScript technologies to create efficient, scalable,
+				and visually appealing web applications. .
 			</p>
 			<a
 				href="#contact"
 				className="button button--flex"
 			>
-				say hello
+				Say Hello
 				<svg
 					class="button__icon"
 					xmlns="http://www.w3.org/2000/svg"

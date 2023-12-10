@@ -30,10 +30,10 @@ function Contacts() {
 							<i className="bx bx-mail-send contact__card-icon"></i>
 							<h3 className="contact__card-title">Email</h3>
 							<span className="contact__card-data">
-								userEmail@gmail.com
+								5a.potykun@gmail.com
 							</span>
 							<a
-								href="mailto:5a.Potykun@gmail.com"
+								href="mailto:5a.potykun@gmail.com"
 								className="contact__button"
 							>
 								Write me
@@ -43,9 +43,9 @@ function Contacts() {
 						<div className="contact__card">
 							<i className="bx bxl-whatsapp contact__card-icon"></i>
 							<h3 className="contact__card-title">Whatsapp</h3>
-							<span className="contact__card-data">999-888-777</span>
+							<span className="contact__card-data">+4915259708099</span>
 							<a
-								href="https://api.whatsapp.com/send?phone=622262626&text=Helloo, more info!"
+								href="https://api.whatsapp.com/send?phone=+4915259708099&text=Helloo, more info!"
 								className="contact__button"
 							>
 								Write me
@@ -55,9 +55,9 @@ function Contacts() {
 						<div className="contact__card">
 							<i className="bx bxl-telegram contact__card-icon"></i>
 							<h3 className="contact__card-title">Messenger</h3>
-							<span className="contact__card-data">user.3434</span>
+							<span className="contact__card-data">@potykun</span>
 							<a
-								href="https://telegram.me"
+								href="https://web.telegram.org/k/#@potykun"
 								className="contact__button"
 							>
 								Write me

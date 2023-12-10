@@ -24,6 +24,7 @@ function Testimonials() {
 				loop={true}
 				spaceBetween={24}
 				grabCursor={true}
+				autoHeight={true}
 				pagination={{
 					clickable: true,
 				}}

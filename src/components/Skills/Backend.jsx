@@ -3,45 +3,44 @@ import React from "react";
 function Backend() {
 	return (
 		<div className="skills__content">
-			<h3 className="skills__title">Backend Developer</h3>
-			<div className="skills__box">
-				<div className="skills__group">
-					<div className="skills__data">
-						<i className="bx bx-badge-check"></i>
-						<div>
-							<h3 className="skills__name">PHP</h3>
-							<span className="skills__level">basic</span>
-						</div>
-					</div>
-					<div className="skills__data">
-						<i className="bx bx-badge-check"></i>
-						<div>
-							<h3 className="skills__name">Node Js</h3>
-							<span className="skills__level">Basic</span>
-						</div>
-					</div>
-					<div className="skills__data">
-						<i className="bx bx-badge-check"></i>
-						<div>
-							<h3 className="skills__name">Python</h3>
-							<span className="skills__level">Basic</span>
-						</div>
+			<h3 className="skills__title">Soft Skills</h3>
+
+			<div className="skills__group">
+				<div className="skills__data">
+					<i className="bx bx-badge-check"></i>
+					<div>
+						<h3 className="skills__name">Teamwork</h3>
 					</div>
 				</div>
-				<div className="skills__group">
-					<div className="skills__data">
-						<i className="bx bx-badge-check"></i>
-						<div>
-							<h3 className="skills__name">MySQL</h3>
-							<span className="skills__level">Basic</span>
-						</div>
+				<div className="skills__data">
+					<i className="bx bx-badge-check"></i>
+					<div>
+						<h3 className="skills__name">Problem-solving</h3>
 					</div>
-					<div className="skills__data">
-						<i className="bx bx-badge-check"></i>
-						<div>
-							<h3 className="skills__name">Firebase</h3>
-							<span className="skills__level">Basic</span>
-						</div>
+				</div>
+				<div className="skills__data">
+					<i className="bx bx-badge-check"></i>
+					<div>
+						<h3 className="skills__name">Communication</h3>
+					</div>
+				</div>
+
+				<div className="skills__data">
+					<i className="bx bx-badge-check"></i>
+					<div>
+						<h3 className="skills__name">Willingness to learn</h3>
+					</div>
+				</div>
+				<div className="skills__data">
+					<i className="bx bx-badge-check"></i>
+					<div>
+						<h3 className="skills__name">Adaptability</h3>
+					</div>
+				</div>
+				<div className="skills__data">
+					<i className="bx bx-badge-check"></i>
+					<div>
+						<h3 className="skills__name">Attention to detail</h3>
 					</div>
 				</div>
 			</div>

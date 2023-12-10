@@ -54,12 +54,13 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	box-shadow: inset 0 0 0 9px rgba(60, 92, 74, 0.5);
+	box-shadow: inset 0 0 0 9px var(border-color);
 	width: 300px;
 	height: 300px;
 	order: 1;
 	justify-self: center;
 	animation: profile__animate 8s ease-in-out infinite 1s;
+	border-radius: 3rem;
 }
 @keyframes profile__animate {
 	0% {
@@ -74,6 +75,7 @@
 }
 .home__scroll {
 	margin-left: 9.25rem;
+	justify-self: start;
 }
 .wheel {
 	animation: scroll 2s ease infinite;
@@ -118,6 +120,7 @@
 	.home__subtitle::before {
 		width: 42px;
 		top: 0.8rem;
+		/* left: 35%; */
 	}
 	.home__description {
 		max-width: initial;
@@ -126,7 +129,7 @@
 	.home__img {
 		width: 250px;
 		height: 250px;
-		box-shadow: inset 0 0 0 8px rgba(60, 92, 74, 0.5);
+		box-shadow: inset 0 0 0 8px var(--border-color);
 	}
 	.home__scroll {
 		margin-left: 7.5rem;
@@ -144,12 +147,15 @@
 		justify-self: initial;
 		width: 200px;
 		height: 200px;
-		box-shadow: inset 0 0 0 6px rgba(60, 92, 74, 0.5);
+		box-shadow: inset 0 0 0 6px var(--border-color);
 		justify-self: center;
 	}
 	.home__data {
 		grid-column: 1/3;
 		text-align: center;
+	}
+	.home__subtitle {
+		padding-left: 0;
 	}
 	.home__scroll {
 		display: none;
@@ -157,6 +163,9 @@
 	.home__social {
 		position: absolute;
 		justify-self: end;
+	}
+	.home__subtitle::before {
+		display: none;
 	}
 }
 

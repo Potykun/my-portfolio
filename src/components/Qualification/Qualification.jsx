@@ -43,47 +43,60 @@ function Qualification() {
 								: "qualification__content"
 						}
 					>
-						<div className="qualification__data">
-							<div>
-								<h3 className="qualification__title">Wed design</h3>
-								<span className="qualification__subtitle">
-									Spain - Institute
-								</span>
-								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2021-Present</i>
-								</div>
-							</div>
-							<div>
-								<span className="qualification__rounder"></span>
-								<span className="qualification__line"></span>
-							</div>
-						</div>
-						<div className="qualification__data">
-							<div></div>
-							<div>
-								<span className="qualification__rounder"></span>
-								<span className="qualification__line"></span>
-							</div>
-							<div>
-								<h3 className="qualification__title">Art director</h3>
-								<span className="qualification__subtitle">
-									Spain - Institute
-								</span>
-								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2020-2021</i>
-								</div>
-							</div>
-						</div>
-						<div className="qualification__data">
+						<div className="qualification__data qualification__data--left">
 							<div>
 								<h3 className="qualification__title">
-									Wed development
+									Web Development React.js
 								</h3>
 								<span className="qualification__subtitle">
-									Spain - Institute
+									ReDI School of Digital Integration. <br /> Dusseldorf
+									- Germany
 								</span>
 								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2018-2020</i>
+									<i className="uil uil-calendar-alt">
+										09.2023 - 12.2023
+									</i>
+								</div>
+							</div>
+							<div>
+								<span className="qualification__rounder"></span>
+								<span className="qualification__line"></span>
+							</div>
+						</div>
+						<div className="qualification__data ">
+							<div></div>
+							<div>
+								<span className="qualification__rounder"></span>
+								<span className="qualification__line"></span>
+							</div>
+							<div>
+								<h3 className="qualification__title">
+									Web Development JavaScript
+								</h3>
+								<span className="qualification__subtitle">
+									ReDI School of Digital Integration. <br /> Dusseldorf
+									- Germany
+								</span>
+								<div className="qualification__calendar">
+									<i className="uil uil-calendar-alt">
+										04.2023 - 06.2023
+									</i>
+								</div>
+							</div>
+						</div>
+						<div className="qualification__data qualification__data--left">
+							<div>
+								<h3 className="qualification__title">
+									German B2 language courses
+								</h3>
+								<span className="qualification__subtitle">
+									Berlitz Language School
+									<br /> Duisburg - Germany
+								</span>
+								<div className="qualification__calendar">
+									<i className="uil uil-calendar-alt">
+										10.2023 - 06.2024
+									</i>
 								</div>
 							</div>
 							<div>
@@ -98,12 +111,59 @@ function Qualification() {
 								<span className="qualification__line"></span>
 							</div>
 							<div>
-								<h3 className="qualification__title">Ux Expert</h3>
+								<h3 className="qualification__title">
+									German B1 language courses
+								</h3>
 								<span className="qualification__subtitle">
-									Spain - Institute
+									L.A.N.E.S Language School
+									<br /> Duisburg - Germany
 								</span>
 								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2017-2018</i>
+									<i className="uil uil-calendar-alt">
+										09.2022 - 04.2023
+									</i>
+								</div>
+							</div>
+						</div>
+						<div className="qualification__data qualification__data--left">
+							<div>
+								<h3 className="qualification__title">
+									Bachelor of Architecture
+								</h3>
+								<span className="qualification__subtitle">
+									Kharkiv National University <br /> of Construction
+									and Architecture
+									<br /> Kharkiv - Ukraine
+								</span>
+								<div className="qualification__calendar">
+									<i className="uil uil-calendar-alt">
+										09.2013 - 06.2017
+									</i>
+								</div>
+							</div>
+							<div>
+								<span className="qualification__rounder"></span>
+								<span className="qualification__line"></span>
+							</div>
+						</div>
+						<div className="qualification__data">
+							<div></div>
+							<div>
+								<span className="qualification__rounder"></span>
+								<span className="qualification__line"></span>
+							</div>
+							<div>
+								<h3 className="qualification__title">
+									High school diploma
+								</h3>
+								<span className="qualification__subtitle">
+									Kharkiv University Lyceum
+									<br /> Kharkiv - Ukraine
+								</span>
+								<div className="qualification__calendar">
+									<i className="uil uil-calendar-alt">
+										09.2001 - 06.2012
+									</i>
 								</div>
 							</div>
 						</div>
@@ -115,16 +175,18 @@ function Qualification() {
 								: "qualification__content"
 						}
 					>
-						<div className="qualification__data">
+						<div className="qualification__data qualification__data--left">
 							<div>
 								<h3 className="qualification__title">
-									Product designer
+									Frontend developer
 								</h3>
 								<span className="qualification__subtitle">
-									Microsoft - Spain
+									Q-Web - Kharkiv, Ukraine
 								</span>
 								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2021-Present</i>
+									<i className="uil uil-calendar-alt">
+										04/2021 - 02/2022
+									</i>
 								</div>
 							</div>
 							<div>
@@ -139,28 +201,17 @@ function Qualification() {
 								<span className="qualification__line"></span>
 							</div>
 							<div>
-								<h3 className="qualification__title">UX Designer</h3>
+								<h3 className="qualification__title">
+									Senior Interio Designer
+								</h3>
 								<span className="qualification__subtitle">
-									Apple Inc - Spain
+									Progressive Design - Kharkiv, Ukraine
 								</span>
 								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2020-2021</i>
+									<i className="uil uil-calendar-alt">
+										09/2017 - 04/2021
+									</i>
 								</div>
-							</div>
-						</div>
-						<div className="qualification__data">
-							<div>
-								<h3 className="qualification__title">Wed designer</h3>
-								<span className="qualification__subtitle">
-									Figma - Spain
-								</span>
-								<div className="qualification__calendar">
-									<i className="uil uil-calendar-alt">2018-2020</i>
-								</div>
-							</div>
-							<div>
-								<span className="qualification__rounder"></span>
-								<span className="qualification__line"></span>
 							</div>
 						</div>
 					</div>

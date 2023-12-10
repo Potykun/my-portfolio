@@ -7,14 +7,14 @@
 
 	/*========== Colors ==========*/
 	/*Color mode HSL(hue, saturation, lightness)*/
-	--hue: 180;
-	--sat: 20%;
-	--title-color: hsl(var(--hue), var(--sat), 40%);
-	--title-color-dark: hsl(var(--hue), var(--sat), 2%);
-	--text-color: hsl(var(--hue), var(--sat), 46%);
-	--body-color: hsl(var(--hue), var(--sat), 95%);
-	--container-color: hsl(var(--hue), var(--sat), 85%);
-	--border-color: hsl(var(--hue), var(--sat), 80%);
+	--hue: 220;
+	--sat: 30%;
+	--title-color: hsl(var(--hue), var(--sat), 70%);
+	--title-color-dark: hsl(var(--hue), var(--sat), 80%);
+	--text-color: hsl(var(--hue), var(--sat), 85%);
+	--body-color: hsl(var(--hue), var(--sat), 10%);
+	--container-color: hsl(var(--hue), var(--sat), 25%);
+	--border-color: hsl(var(--hue), var(--sat), 40%);
 
 	/*========== Font and typography ==========*/
 	--body-font: "Poppins", sans-serif;
@@ -151,7 +151,7 @@ img {
 
 /*=============== BUTTONS ===============*/
 .button {
-	display: inline-block;
+	display: block;
 	background-color: var(--title-color);
 	color: var(--container-color);
 	padding: 1.25rem 2rem;
@@ -168,8 +168,9 @@ img {
 }
 
 .button--flex {
-	display: inline-flex;
+	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 /*=============== BREAKPOINTS ===============*/

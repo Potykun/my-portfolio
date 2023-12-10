@@ -4,11 +4,20 @@ import React from "react";
 function WorkItems({ item }) {
 	return (
 		<div className="work__card">
-			<img
-				src={item.image}
-				alt="image"
-				className="work__image"
-			/>
+			<a href={item.src}>
+				{!item.svg ? (
+					<img
+						src={item.image}
+						alt="image"
+						className="work__image"
+					/>
+				) : (
+					<div
+						dangerouslySetInnerHTML={{ __html: item.svg }}
+						className="work__image work__image--svg"
+					/>
+				)}
+			</a>
 			<h3 className="work__title">{item.title}</h3>
 			<a
 				href=""

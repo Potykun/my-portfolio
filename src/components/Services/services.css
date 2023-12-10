@@ -1,5 +1,5 @@
 .services__conteiner {
-	grid-template-columns: repeat(3, 270px);
+	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	column-gap: 1.8rem;
 }
@@ -36,6 +36,7 @@
 .services__button:hover .services__button-icon {
 	transform: translateX(0.25rem);
 }
+
 .services__modal {
 	position: fixed;
 	top: 0;
@@ -84,6 +85,7 @@
 }
 .services__modal-services {
 	row-gap: 0.75rem;
+	justify-content: center;
 }
 .services__modal-service {
 	display: flex;
@@ -97,6 +99,7 @@
 
 .services__modal-info {
 	font-size: var(--small-font-size);
+	text-transform: capitalize;
 }
 .active-modal {
 	opacity: 1;
@@ -110,7 +113,7 @@
 
 @media screen and (max-width: 768px) {
 	.services__conteiner {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(1, 1fr);
 	}
 	.services__content {
 		padding: 3.5rem 0.5rem 1.25rem 1.5rem;

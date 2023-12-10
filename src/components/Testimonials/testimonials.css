@@ -1,6 +1,6 @@
 .testimonial__conteiner {
-	margin-left: var(--mb-1-5) !important;
-	margin-right: var(--mb-1-5) !important;
+	/* margin-left: var(--mb-1-5) !important;
+	margin-right: var(--mb-1-5) !important; */
 }
 .testimonial__card {
 	background-color: var(--container-color);

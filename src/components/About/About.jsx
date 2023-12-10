@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.JPG";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Potykun-Cv.pdf";
 import Info from "./Info";
 
 function About() {
@@ -21,12 +21,17 @@ function About() {
 				<div className="about__data">
 					<Info></Info>
 					<p className="about__description">
-						Frontend develper, Lorem ipsum, dolor sit amet consectetur
-						adipisicing elit. Numquam odit perspiciatis esse enim nam.
+						More than one year of hands-on experience as a Web developer.
+						<br />I bring a proven track record of designing and
+						implementing robust front-end solutions. Proficient in
+						leveraging React.js, along with a strong foundation in
+						JavaScript, HTML, and CSS <br /> I am adept at delivering
+						high-quality, user-centric applications that meet both
+						functional and aesthetic requirements.
 					</p>
 					<a
 						href={CV}
-						className="button button--flex"
+						className="button button--flex about__button"
 					>
 						Download CV
 						<svg
