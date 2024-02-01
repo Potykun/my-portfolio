@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.676022d1.css",
-    "main.js": "/my-portfolio/static/js/main.b03a7bd4.js",
+    "main.js": "/my-portfolio/static/js/main.8e8db021.js",
     "static/js/787.2dcca737.chunk.js": "/my-portfolio/static/js/787.2dcca737.chunk.js",
-    "static/media/Potykun-Cv.pdf": "/my-portfolio/static/media/Potykun-Cv.93cf735f8200d292fc17.pdf",
+    "static/media/Potykun-Cv.pdf": "/my-portfolio/static/media/Potykun-Cv.71ff4ba7488c9da595f3.pdf",
     "static/media/about.JPG": "/my-portfolio/static/media/about.5c0a4724654a03a3707d.JPG",
     "static/media/profile.JPG": "/my-portfolio/static/media/profile.e6958f69aa9bccae1362.JPG",
     "static/media/testimonial2.jpg": "/my-portfolio/static/media/testimonial2.21e9cc9989c8d46f1e56.jpg",
@@ -20,11 +20,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/process.svg": "/my-portfolio/static/media/process.5d4dc195e21906004fdc3bcf91ed4745.svg",
     "main.676022d1.css.map": "/my-portfolio/static/css/main.676022d1.css.map",
-    "main.b03a7bd4.js.map": "/my-portfolio/static/js/main.b03a7bd4.js.map",
+    "main.8e8db021.js.map": "/my-portfolio/static/js/main.8e8db021.js.map",
     "787.2dcca737.chunk.js.map": "/my-portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.676022d1.css",
-    "static/js/main.b03a7bd4.js"
+    "static/js/main.8e8db021.js"
   ]
 }
