@@ -9,18 +9,11 @@ import Work8 from "../../assets/work8.jpg";
 
 export const projectsData = [
 	{
-		id: 1,
-		image: Work1,
-		title: "Web design",
+		id: 8,
+		image: Work8,
+		title: "Multi pages web application",
 		category: "JavaScript",
-		src: "#",
-	},
-	{
-		id: 2,
-		image: Work2,
-		title: "Locus",
-		category: "JavaScript",
-		src: "https://potykun.github.io/Portfolio_Locus/",
+		src: "https://potykun.github.io/Portfolio_skold/",
 	},
 	{
 		id: 3,
@@ -30,12 +23,13 @@ export const projectsData = [
 		src: "https://potykun.github.io/Portfolio_Agroinvest/",
 	},
 	{
-		id: 4,
-		image: Work4,
-		title: "MUJO",
+		id: 2,
+		image: Work2,
+		title: "Locus",
 		category: "JavaScript",
-		src: "#",
+		src: "https://potykun.github.io/Portfolio_Locus/",
 	},
+
 	{
 		id: 5,
 		image: Work5,
@@ -43,6 +37,21 @@ export const projectsData = [
 		category: "JavaScript",
 		src: "https://potykun.github.io/Portfolio_Alex/",
 	},
+	{
+		id: 4,
+		image: Work4,
+		title: "MUJO",
+		category: "JavaScript",
+		src: "#",
+	},
+	{
+		id: 1,
+		image: Work1,
+		title: "Web design",
+		category: "JavaScript",
+		src: "#",
+	},
+
 	{
 		id: 6,
 		image: Work6,
@@ -60,13 +69,6 @@ export const projectsData = [
 		<path d="M23,11a1,1,0,0,0-1,1,10.034,10.034,0,1,1-2.9-7.021A.862.862,0,0,1,19,5H16a1,1,0,0,0,0,2h3a3,3,0,0,0,3-3V1a1,1,0,0,0-2,0V3.065A11.994,11.994,0,1,0,24,12,1,1,0,0,0,23,11Z
 		M12,6a1,1,0,0,0-1,1v5a1,1,0,0,0,.293.707l3,3a1,1,0,0,0,1.414-1.414L13,11.586V7A1,1,0,0,0,12,6Z"/></svg>`,
 		src: "#",
-	},
-	{
-		id: 8,
-		image: Work8,
-		title: "Multi pages web application",
-		category: "JavaScript",
-		src: "https://potykun.github.io/Portfolio_skold/",
 	},
 ];
 

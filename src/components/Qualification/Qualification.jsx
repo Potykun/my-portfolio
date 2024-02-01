@@ -185,7 +185,7 @@ function Qualification() {
 								</span>
 								<div className="qualification__calendar">
 									<i className="uil uil-calendar-alt">
-										04/2021 - 02/2022
+										06/2021 - 02/2022
 									</i>
 								</div>
 							</div>
@@ -209,7 +209,7 @@ function Qualification() {
 								</span>
 								<div className="qualification__calendar">
 									<i className="uil uil-calendar-alt">
-										09/2017 - 04/2021
+										09/2017 - 06/2021
 									</i>
 								</div>
 							</div>
