@@ -20,7 +20,7 @@ function WorkItems({ item }) {
 			</a>
 			<h2 className="work__title">{item.title}</h2>
 			<div className="work__stack">
-				<h4>Stack:</h4>
+				<h3>Stack:</h3>
 				{item.technologies ? (
 					<div className="work__stack-items">
 						{item.technologies.map((e, i) => (
@@ -34,7 +34,20 @@ function WorkItems({ item }) {
 						))}
 					</div>
 				) : (
-					"JavaScript"
+					<div className="work__stack-items">
+						<div className="work__stack-item">
+							<i className="bx bx-badge-check"></i>
+							<p>JavaScript</p>
+						</div>
+						<div className="work__stack-item">
+							<i className="bx bx-badge-check"></i>
+							<p>SCSS</p>
+						</div>
+						<div className="work__stack-item">
+							<i className="bx bx-badge-check"></i>
+							<p>HTML</p>
+						</div>
+					</div>
 				)}
 			</div>
 			{item.feathers && (

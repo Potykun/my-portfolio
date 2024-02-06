@@ -41,6 +41,8 @@
 		border: 1px solid var(--border-color);
 		padding: 1.25rem;
 		border-radius: 1rem;
+		display: flex;
+		flex-direction: column;
 
 		&:hover {
 			.work__button-icon {
@@ -68,6 +70,15 @@
 			align-items: center;
 		}
 	}
+	&__feathers-item {
+		&::before {
+			content: "";
+			background-color: var(--title-color);
+			height: 5px;
+			width: 5px;
+			border-radius: 50%;
+		}
+	}
 
 	&__stack-item i {
 		animation: rotate 1s alternate ease-in infinite;
@@ -93,14 +104,14 @@
 		color: var(--text-color);
 		font-size: var(--small-font-size);
 		display: flex;
-		align-items: center;
+		align-items: end;
 		column-gap: 0.25rem;
 		flex: 1 1 auto;
-		align-self: flex-end;
-
+		// align-self: flex-end;
 		&-icon {
 			font-size: 1rem;
 			transition: 0.3s;
+			margin-bottom: 2px;
 		}
 	}
 
@@ -110,13 +121,10 @@
 		justify-content: center;
 	}
 
-	&__card {
-		&.active-work {
-			background-color: var(--title-color);
-			color: var(--body-color);
-		}
+	.active-work {
+		background-color: var(--title-color);
+		color: var(--body-color);
 	}
-
 	@media screen and (max-width: 992px) {
 		&__container {
 			gap: 1.25rem;
