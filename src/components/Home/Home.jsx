@@ -1,8 +1,8 @@
-import React from "react";
-import Social from "./Social";
-import Data from "./Data";
-import "./home.css";
-import ScrollDown from "./ScrollDown";
+import React from "react"
+import Social from "./Social"
+import Data from "./Data"
+import "./home.css"
+import ScrollDown from "./ScrollDown"
 
 function Home() {
 	return (
@@ -10,7 +10,7 @@ function Home() {
 			className="home section"
 			id="home"
 		>
-			<div className="home__conteiner conteiner grid">
+			<div className="home__container container grid">
 				<div className="home__content grid">
 					<Social></Social>
 					<div className="home__img"></div>
@@ -19,7 +19,7 @@ function Home() {
 				<ScrollDown></ScrollDown>
 			</div>
 		</section>
-	);
+	)
 }
 
-export default Home;
+export default Home

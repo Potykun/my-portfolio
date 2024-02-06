@@ -1,4 +1,4 @@
-.about__conteiner {
+.about__container {
 	grid-template-columns: auto 1fr;
 	align-items: center;
 	justify-content: space-between;
@@ -57,7 +57,7 @@
 	margin-bottom: var(--mb-2-5);
 }
 @media screen and (max-width: 992px) {
-	.about__conteiner {
+	.about__container {
 		grid-template-columns: 1fr;
 		row-gap: 2.5rem;
 	}

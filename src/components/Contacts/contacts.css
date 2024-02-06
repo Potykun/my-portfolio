@@ -1,4 +1,4 @@
-.contact__conteiner {
+.contact__container {
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 	column-gap: 6rem;
@@ -93,12 +93,12 @@
 	resize: none;
 }
 @media screen and (max-width: 992px) {
-	.contact__conteiner {
+	.contact__container {
 		column-gap: 3rem;
 	}
 }
 @media screen and (max-width: 768px) {
-	.contact__conteiner {
+	.contact__container {
 		grid-template-columns: 1fr;
 		row-gap: 3rem;
 	}

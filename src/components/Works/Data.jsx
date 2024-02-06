@@ -1,13 +1,23 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
-import Work6 from "../../assets/work6.jpg";
-import Work7 from "../../assets/process.svg";
-import Work8 from "../../assets/work8.jpg";
+import Work1 from "../../assets/work1.jpg"
+import Work2 from "../../assets/work2.jpg"
+import Work3 from "../../assets/work3.jpg"
+import Work4 from "../../assets/work4.jpg"
+import Work5 from "../../assets/work5.jpg"
+import Work6 from "../../assets/work6.jpg"
+import Work7 from "../../assets/process.svg"
+import Work8 from "../../assets/work8.jpg"
+import Work9 from "../../assets/work9.jpg"
 
 export const projectsData = [
+	{
+		id: 9,
+		image: Work9,
+		title: "E-commerce Pizza app",
+		category: "React",
+		src: "https://potykun.github.io/pizza-ecommerce/",
+		feathers: ["Lodash.debounce"],
+		technologies: ["React.js", "Redux Toolkit", "TypeScript", "SCSS module", "JavaScript"],
+	},
 	{
 		id: 8,
 		image: Work8,
@@ -70,7 +80,7 @@ export const projectsData = [
 		M12,6a1,1,0,0,0-1,1v5a1,1,0,0,0,.293.707l3,3a1,1,0,0,0,1.414-1.414L13,11.586V7A1,1,0,0,0,12,6Z"/></svg>`,
 		src: "#",
 	},
-];
+]
 
 export const projectsNav = [
 	{
@@ -85,4 +95,4 @@ export const projectsNav = [
 	{
 		name: "Other",
 	},
-];
+]

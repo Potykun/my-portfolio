@@ -18,7 +18,7 @@
 	background-color: var(--title-color);
 	color: var(--body-color);
 }
-.work__conteiner {
+.work__container {
 	grid-template-columns: 1fr 1fr;
 	gap: 3rem;
 	justify-content: center;
@@ -29,6 +29,55 @@
 	padding: 1.25rem;
 	border-radius: 1rem;
 }
+.work__stack {
+	background-color: var(--border-color);
+	border-radius: 1rem;
+	padding: 1.25rem;
+	margin-bottom: var(--mb-1);
+}
+
+.work__stack-items {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+}
+
+.work__stack-item {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.work__feathers {
+	background-color: var(--border-color);
+	border-radius: 1rem;
+	padding: 1.25rem;
+	margin-bottom: var(--mb-1);
+}
+
+.work__feathers-items {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+}
+
+.work__feathers-item {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+.work__stack-item i {
+	animation: rotate 1s alternate ease-in infinite;
+}
+@keyframes rotate {
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 .work__image {
 	max-width: 100%;
 	width: 100%;
@@ -39,9 +88,9 @@
 	object-position: top;
 }
 .work__title {
-	font-size: var(--normal-font-size);
+	font-size: var(--h2-font-size);
 	font-weight: var(--font-medium);
-	margin-bottom: var(--mb-0-5);
+	margin-bottom: var(--mb-1);
 }
 .work__button {
 	color: var(--text-color);
@@ -49,6 +98,9 @@
 	display: flex;
 	align-items: center;
 	column-gap: 0.25rem;
+	display: flex;
+	flex: 1 1 auto;
+	align-self: flex-end;
 }
 .work__button-icon {
 	font-size: 1rem;
@@ -68,7 +120,7 @@
 }
 
 @media screen and (max-width: 992px) {
-	.work__conteiner {
+	.work__container {
 		gap: 1.25rem;
 	}
 	.work__card {
@@ -83,7 +135,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	.work__conteiner {
+	.work__container {
 		grid-template-columns: 1fr;
 	}
 	.work__image {

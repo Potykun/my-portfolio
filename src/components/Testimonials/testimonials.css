@@ -1,4 +1,4 @@
-.testimonial__conteiner {
+.testimonial__container {
 	/* margin-left: var(--mb-1-5) !important;
 	margin-right: var(--mb-1-5) !important; */
 }
@@ -30,7 +30,7 @@
 	opacity: 1 !important;
 }
 @media screen and (max-width: 992px) {
-	.testimonial__conteiner {
+	.testimonial__container {
 		width: initial;
 		margin-left: auto !important;
 		margin-right: auto !important;

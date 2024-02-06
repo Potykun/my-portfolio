@@ -1,10 +1,10 @@
-import React from "react";
-import "./footer.css";
+import React from "react"
+import "./footer.css"
 
 function Footer() {
 	return (
 		<footer className="footer">
-			<div className="footer__conteiner conteiner">
+			<div className="footer__container container">
 				<h1 className="footer__title">Potykun</h1>
 				<ul className="footer__list">
 					<li>
@@ -55,12 +55,10 @@ function Footer() {
 						<i className="uil uil-github-alt"></i>
 					</a>
 				</div>
-				<span className="footer__copy">
-					&#169; Potykun. All right reserved
-				</span>
+				<span className="footer__copy">&#169; Potykun. All right reserved</span>
 			</div>
 		</footer>
-	);
+	)
 }
 
-export default Footer;
+export default Footer

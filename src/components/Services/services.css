@@ -1,4 +1,4 @@
-.services__conteiner {
+.services__container {
 	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	column-gap: 1.8rem;
@@ -106,13 +106,13 @@
 	visibility: visible;
 }
 @media screen and (max-width: 992px) {
-	.services__conteiner {
+	.services__container {
 		grid-template-columns: repeat(3, 218px);
 	}
 }
 
 @media screen and (max-width: 768px) {
-	.services__conteiner {
+	.services__container {
 		grid-template-columns: repeat(1, 1fr);
 	}
 	.services__content {
@@ -132,7 +132,7 @@
 	}
 }
 @media screen and (max-width: 350px) {
-	.services__conteiner {
+	.services__container {
 		grid-template-columns: 1fr;
 	}
 	.services__content {

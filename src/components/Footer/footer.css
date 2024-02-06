@@ -2,7 +2,7 @@
 	background-color: var(--container-color);
 	border-top: 1px solid var(--border-color);
 }
-.footer__conteiner {
+.footer__container {
 	padding: 2rem 0 4rem;
 }
 .footer__title,
