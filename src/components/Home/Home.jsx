@@ -1,7 +1,7 @@
 import React from "react"
 import Social from "./Social"
 import Data from "./Data"
-import "./home.css"
+import "./home.scss"
 import ScrollDown from "./ScrollDown"
 
 function Home() {

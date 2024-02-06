@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./qualification.css"
+import "./qualification.scss"
 
 function Qualification() {
 	const [toggleState, setToggleState] = useState(1)

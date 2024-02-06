@@ -1,7 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+/*=============== VARIABLES SCSS ===============*/
 :root {
 	--header-height: 3rem;
 
@@ -34,7 +34,7 @@
 	--font-medium: 500;
 	--font-semi-bold: 600;
 
-	/*========== Margenes Bottom ==========*/
+	/*========== Margents Bottom ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
 	--mb-0-25: 0.25rem;
 	--mb-0-5: 0.5rem;
@@ -116,7 +116,7 @@ img {
 	height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*=============== REUSABLE SCSS CLASSES ===============*/
 .section {
 	padding: 6rem 0 2rem;
 }
@@ -157,20 +157,20 @@ img {
 	padding: 1.25rem 2rem;
 	border-radius: 1rem;
 	font-weight: var(--font-medium);
-}
 
-.button:hover {
-	background-color: var(--title-color-dark);
-}
+	&:hover {
+		background-color: var(--title-color-dark);
+	}
 
-.button__icon {
-	margin-left: var(--mb-0-5);
-}
+	&__icon {
+		margin-left: var(--mb-0-5);
+	}
 
-.button--flex {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	&--flex {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 /*=============== BREAKPOINTS ===============*/

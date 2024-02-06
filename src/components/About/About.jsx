@@ -1,5 +1,5 @@
 import React from "react"
-import "./about.css"
+import "./about.scss"
 import AboutImg from "../../assets/about.JPG"
 import CV from "../../assets/Potykun-Cv.pdf"
 import Info from "./Info"
