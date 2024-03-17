@@ -1,15 +1,14 @@
-import React from "react"
-import { projectsData, projectsNav } from "./Data"
-import WorkItems from "./WorkItems"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from 'react'
+import { projectsData, projectsNav } from './Data'
+import WorkItems from './WorkItems'
 
 function WorkList() {
-	const [item, setItem] = useState({ name: "all" })
+	const [item, setItem] = useState({ name: 'all' })
 	const [projcts, setProjcts] = useState([])
 	const [actiive, setActive] = useState(0)
 
 	useEffect(() => {
-		if (item.name === "all") {
+		if (item.name === 'all') {
 			setProjcts(projectsData)
 		} else {
 			const newProjects = projectsData.filter((project) => {
@@ -24,11 +23,11 @@ function WorkList() {
 	}
 	return (
 		<>
-			<div className="work__filter">
+			<div className='work__filter'>
 				{projectsNav.map((item, index) => {
 					return (
 						<span
-							className={actiive === index ? "active-work work__item" : "work__item"}
+							className={actiive === index ? 'active-work work__item' : 'work__item'}
 							key={index}
 							onClick={(e) => {
 								handleClick(e, index)
@@ -39,12 +38,12 @@ function WorkList() {
 					)
 				})}
 			</div>
-			<div className="work__container container grid">
+			<div className='work__container container grid'>
 				{projcts.map((item) => {
 					return (
 						<WorkItems
-							item={item}
 							key={item.id}
+							item={item}
 						></WorkItems>
 					)
 				})}

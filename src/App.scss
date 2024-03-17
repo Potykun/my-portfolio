@@ -1,5 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES SCSS ===============*/
 :root {
@@ -17,7 +20,7 @@
 	--border-color: hsl(var(--hue), var(--sat), 40%);
 
 	/*========== Font and typography ==========*/
-	--body-font: "Poppins", sans-serif;
+	--body-font: 'Poppins', sans-serif;
 
 	/*.5rem = 8px | 1rem = 16px ...*/
 	--big-font-size: 3.5rem;
