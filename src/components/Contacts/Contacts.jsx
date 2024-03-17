@@ -1,37 +1,30 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import "./contacts.css";
+import React, { useRef } from "react"
+import emailjs from "@emailjs/browser"
+import "./contacts.scss"
 function Contacts() {
-	const form = useRef();
+	const form = useRef()
 
 	const sendEmail = (e) => {
-		e.preventDefault();
+		e.preventDefault()
 
-		emailjs.sendForm(
-			"service_jv9b7l7",
-			"template_yv8nrve",
-			form.current,
-			"aQiAHtNHaWDIjd_in"
-		);
-		e.target.reset();
-	};
+		emailjs.sendForm("service_jv9b7l7", "template_yv8nrve", form.current, "aQiAHtNHaWDIjd_in")
+		e.target.reset()
+	}
 	return (
 		<section
-			className="contact conteiner section"
+			className="contact container section"
 			id="contact"
 		>
 			<h2 className="section__title">Get in touch</h2>
 			<span className="section__subtitle">Contact Me</span>
-			<div className="contact__conteiner grid">
+			<div className="contact__container grid">
 				<div className="contact__content">
 					<h3 className="contact__title">Talk to me</h3>
 					<div className="contact__info">
 						<div className="contact__card">
 							<i className="bx bx-mail-send contact__card-icon"></i>
 							<h3 className="contact__card-title">Email</h3>
-							<span className="contact__card-data">
-								5a.potykun@gmail.com
-							</span>
+							<span className="contact__card-data">5a.potykun@gmail.com</span>
 							<a
 								href="mailto:5a.potykun@gmail.com"
 								className="contact__button"
@@ -125,7 +118,7 @@ function Contacts() {
 				</div>
 			</div>
 		</section>
-	);
+	)
 }
 
-export default Contacts;
+export default Contacts

@@ -1,8 +1,8 @@
-import React from "react";
-import "./about.css";
-import AboutImg from "../../assets/about.JPG";
-import CV from "../../assets/Potykun-Cv.pdf";
-import Info from "./Info";
+import React from "react"
+import "./about.scss"
+import AboutImg from "../../assets/about.JPG"
+import CV from "../../assets/Potykun-Cv.pdf"
+import Info from "./Info"
 
 function About() {
 	return (
@@ -12,7 +12,7 @@ function About() {
 		>
 			<h2 className="section__title">About Me</h2>
 			<span className="section__subtitle">My intriduction</span>
-			<div className="about__conteiner conteiner grid">
+			<div className="about__container container grid">
 				<img
 					src={AboutImg}
 					alt=""
@@ -22,12 +22,9 @@ function About() {
 					<Info></Info>
 					<p className="about__description">
 						More than one year of hands-on experience as a Web developer.
-						<br />I bring a proven track record of designing and
-						implementing robust front-end solutions. Proficient in
-						leveraging React.js, along with a strong foundation in
-						JavaScript, HTML, and CSS <br /> I am adept at delivering
-						high-quality, user-centric applications that meet both
-						functional and aesthetic requirements.
+						<br />I bring a proven track record of designing and implementing robust front-end solutions. Proficient in leveraging React.js,
+						along with a strong foundation in JavaScript, HTML, and CSS <br /> I am adept at delivering high-quality, user-centric
+						applications that meet both functional and aesthetic requirements.
 					</p>
 					<a
 						href={CV}
@@ -63,7 +60,7 @@ function About() {
 				</div>
 			</div>
 		</section>
-	);
+	)
 }
 
-export default About;
+export default About
