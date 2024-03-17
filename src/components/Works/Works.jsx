@@ -1,7 +1,7 @@
-import React from "react";
-import "./works.css";
+import React from "react"
+import "./works.scss"
 
-import WorkList from "./WorkList";
+import WorkList from "./WorkList"
 
 function Works() {
 	return (
@@ -13,7 +13,7 @@ function Works() {
 			<span className="section__subtitle">Most recent works</span>
 			<WorkList></WorkList>
 		</section>
-	);
+	)
 }
 
-export default Works;
+export default Works
