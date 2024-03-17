@@ -58,11 +58,6 @@ function Data() {
 			<h3 className='home__subtitle'>Web Developer</h3>
 			<p className='home__description'>
 				Frontend developer specialize in crafting dynamic and responsive user interfaces expertise. Integrating React, TypeScript, Redux,
-<<<<<<< HEAD
-				HTML, CSS and JavaScript technologies to create efficient, scalable, and visually appealing web applications. .
-=======
-				HTML, CSS and JavaScript technologies to create efficient, scalable, and visually appealing web applications. . test
->>>>>>> 80970f93b8be7503d314ab31ee5642b1108b7934
 			</p>
 			<a
 				href='#contact'
